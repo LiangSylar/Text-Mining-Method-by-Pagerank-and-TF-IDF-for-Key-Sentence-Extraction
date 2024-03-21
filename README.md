@@ -1,11 +1,11 @@
 ![image](https://github.com/LiangSylar/Text-Mining-Method-by-Pagerank-and-TF-IDF-for-Key-Sentence-Extraction-/assets/64362092/281e8f92-be73-48d3-9d0f-7213aa6651c8)# Text-Mining-Method-by-Pagerank-and-TF-IDF-for-Key-Sentence-Extraction
 
 ## Introduction 
-In this project, we try a method that combines PageRank with TFIDF to extract key sentences from documents. The algorithm first preprocesses the data and obtains the TF-IDF value for each word
+In this project, we try a method that combines PageRank with TF-IDF to extract key sentences from documents. The algorithm first preprocesses the data and obtains the TF-IDF value for each word
 in each sentence. Then the sentence vectors for each sentence are built based on the TF-IDF values. For each pair of sentences in the same article, whether to add an edge between the two sentences depends on the comparison results of the cosine value and the threshold value. The most important sentence in the article can be found by the PageRank algorithm using the relationships suggested by edges
 
 ##  Term Frequency-Inverse Document Frequency (TF-IDF) 
-* TF-IDF contains two separate parts:Term frequency (TF) and Inverse document frequency (IDF)
+* TF-IDF contains two separate parts: Term frequency (TF) and Inverse document frequency (IDF)
 * TF: the more frequently a word appears, the more important it is.
 <figure>
   <img 
