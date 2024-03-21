@@ -1,4 +1,4 @@
-![image](https://github.com/LiangSylar/Text-Mining-Method-by-Pagerank-and-TF-IDF-for-Key-Sentence-Extraction-/assets/64362092/281e8f92-be73-48d3-9d0f-7213aa6651c8)# Text-Mining-Method-by-Pagerank-and-TF-IDF-for-Key-Sentence-Extraction
+# Text-Mining-Method-by-Pagerank-and-TF-IDF-for-Key-Sentence-Extraction
 
 ## Introduction 
 In this project, we try a method that combines PageRank with TF-IDF to extract key sentences from documents. The algorithm first preprocesses the data and obtains the TF-IDF value for each word
